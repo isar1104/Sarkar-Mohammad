@@ -149,8 +149,7 @@
           </g>
         </svg>
       </div>
-
-      <p class="uppercase tracking-[0.3em] text-goldlt text-xs md:text-sm mb-4">In Service of the Qur'an</p>
+      
       <h1 class="font-display text-5xl md:text-7xl leading-tight mb-4">Sarkar Mohammad</h1>
       <p class="font-arabic text-2xl md:text-3xl text-goldlt mb-6" dir="rtl">عالم دین</p>
       <p class="max-w-2xl mx-auto text-cream/80 text-lg font-serif italic leading-relaxed">
@@ -184,9 +183,7 @@
       <p class="text-lg leading-relaxed text-ink/80 font-serif mt-6 text-center md:text-left">
         For over fifteen years I have served communities across India, East Africa, Madagascar,
         and Réunion (France) as a resident scholar, Imam of Jumu'ah and Jama'at, teacher, and
-        principal — carrying the message of the Qur'an from small village Hussainiyas to
-        international lecture halls and satellite broadcasts.
-      </p>
+        principal.
     </div>
   </section>
 
@@ -203,7 +200,6 @@
   <!-- EDUCATION -->
   <section id="education" class="py-24 px-6 bg-parch">
     <div class="max-w-5xl mx-auto">
-      <p class="text-center text-gold uppercase text-xs tracking-[0.3em] mb-3">Foundations of Knowledge</p>
       <h2 class="font-display text-4xl md:text-5xl text-leafdeep text-center mb-14">Education</h2>
 
       <div class="grid md:grid-cols-2 gap-8">
@@ -269,7 +265,6 @@
   <!-- WORK EXPERIENCE TIMELINE -->
   <section id="experience" class="py-24 px-6 bg-parch">
     <div class="max-w-4xl mx-auto">
-      <p class="text-center text-gold uppercase text-xs tracking-[0.3em] mb-3">A Path Across Continents</p>
       <h2 class="font-display text-4xl md:text-5xl text-leafdeep text-center mb-16">Work Experience</h2>
 
       <div class="relative pl-8 md:pl-0">
@@ -313,7 +308,7 @@
       </div>
 
       <div class="fade-up">
-        <h3 class="font-display text-xl text-center mb-6 text-goldlt">Lectures Delivered Across the World</h3>
+        <h3 class="font-display text-xl text-center mb-6 text-goldlt">Lectures & Majalis Delivered Across the World</h3>
         <div class="flex flex-wrap justify-center gap-2.5 max-w-3xl mx-auto">
           <span v-for="city in touredCities" :key="city"
                 class="px-3 py-1.5 text-sm border border-cream/20 rounded-full text-cream/80">
@@ -425,7 +420,7 @@ createApp({
     const quickFacts = [
       { number: '15+', label: 'Years Lecturing' },
       { number: '15+', label: 'Years of Tabligh' },
-      { number: '7', label: 'Countries Served' },
+      { number: '13', label: 'Countries Served' },
       { number: '25+', label: 'Articles Written' },
     ];
 
@@ -437,6 +432,7 @@ createApp({
       'Ethics',
       'Advertising Training',
       'Teaching & Management Training',
+      'Theology and History'و
     ];
 
     const skills = [
@@ -464,15 +460,15 @@ createApp({
     const workExperience = [
       { place: 'Darul-Quran Center, Moroni, Comoro', role: 'Principal' },
       { place: 'Hawzatul Muntazar, Antananarivo, Madagascar', role: 'Teacher' },
-      { place: 'Madrisa Hussainin, Darussalam, Tanzania', role: 'Teacher' },
-      { place: 'Madrisa, Arusha Khoja Shia Ithna Ashri Jamaat, Tanzania', role: 'Teacher' },
-      { place: 'Madrisa, Mombasa Khoja Shia Ithna Ashri Jamaat, Kenya', role: 'Teacher — 3 months' },
-      { place: 'St-André Jama\'at, Réunion, France', role: 'Teacher — 2.5 years' },
-      { place: 'St-Denis Jama\'at, Réunion, France', role: 'Teacher — 1 year' },
+      { place: 'Jamaat Hussainin, Darussalam, Tanzania', role: 'Teacher' },
+      { place: 'Jamaat, Arusha Khoja Shia Ithna Ashri Jamaat, Tanzania', role: 'Resident Shcolar and Teacher' },
+      { place: 'Jamaat, Mombasa Khoja Shia Ithna Ashri Jamaat, Kenya', role: 'Teacher — 3 months' },
+      { place: 'St-André Jama\'at, Réunion, France', role: 'Resident Scholar— 2.5 years' },
+      { place: 'St-Denis Jama\'at, Réunion, France', role: 'Resident Scholar — 1 year' },
       { place: 'St-Paul Jama\'at, Réunion, France', role: 'Teacher — 3.5 years' },
-      { place: 'Khoja TV & Radio, Réunion, France', role: 'Lecturer' },
-      { place: 'Ali Channel, Alipoor, India', role: 'Lecture & Majalis' },
-      { place: 'Imam Ali Channel, Kanodar, India', role: 'Lecture & Majalis' },
+      { place: 'Khoja TV & Radio, Réunion, France', role: 'Lecturer, Majalis and Dars' },
+      { place: 'Ali Channel, Alipoor, India', role: 'Teacher, Lecture & Majalis' },
+      { place: 'Imam Ali Channel, Kanodar, India', role: 'Teacher, Lecture & Majalis' },
     ];
 
     const residencies = [
